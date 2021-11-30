@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gothic+A1:wght@300;400&display=swap");
+/*
+#4A148C 배경 컬러
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4a148c;
+}
+
+.title-logo {
+  font-family: "Black Han Sans", sans-serif;
+  color: #fff;
+  margin-top: 25px;
+}
+
+.loading-bar {
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0px;
+  padding: 35px 5px;
+  color: #fff;
+  border: 8px solid #fff;
+  border-radius: 50%;
+}
+
+.coin-list {
+  margin: 25px 0px;
+  padding: 10px 8px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.need-box {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 25px;
+  font-family: "Gothic A1", sans-serif;
+  margin-bottom: 25px;
+}
+
+.item-box {
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.item-box input {
+  margin-top: 13px;
+  padding: 10px 8px;
+  text-align: center;
+  width: 80%;
+  border: 1px solid #9575cd;
+  border-radius: 25px;
+  background-color: #4a148c;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.reset-btn {
+  font-family: "Black Han Sans", sans-serif;
+  margin-left: 40%;
+  margin-bottom: 15px;
+  padding: 13px 18px;
+  background: rgb(102, 54, 134);
+  background: radial-gradient(
+    circle,
+    rgb(175, 136, 207) 0%,
+    rgba(74, 20, 140, 1) 100%
+  );
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+.reset-btn:hover {
+  color: #4a148c;
+}
+.reset-btn:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.memo-part {
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  background-color: #f4ff81;
+  box-shadow: inset 1px 1px 2px rgba(255, 255, 255, 0.6),
+    inset -1px -1px 2px rgba(0, 0, 0, 0.6);
+}
+.memo-title {
+  text-align: center;
+  margin: 13px 0px;
+  border-bottom: 1px solid orangered;
+  border-width: 80%;
+}
+
+.memo-part input {
+  margin-bottom: 13px;
+  border: none;
+  background: none;
+  border-bottom: 1px solid orangered;
+  border-width: 80%;
+}
+.add-btn {
+  margin-left: 10px;
+  padding: 5px 12px;
+  background: orangered;
+  box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.6),
+    inset -1px -1px 2px rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border: none;
+}
+.memo-list {
+  width: 100%;
+  list-style: none;
+  padding-top: 4px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid orangered;
+}
+.memo-list:last-child {
+  margin-bottom: 7px;
+}
+
+.hidden {
+  display: none;
+}
